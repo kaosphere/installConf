@@ -1,31 +1,30 @@
-installConf
-===========
-
 installConf Psycko
+==================
 
-This conf installs the bash ctafconf (see ctaf42 on github), zsh, git, and some software for a new empty system. 
+This conf installs the bash ctafconf (see [ctaf42 on github](http://github.com/ctaf42)), zsh, git, and some softwares for a new empty system. 
 
-Softwares installed :
+Softwares installed:
 
--git gui
--gedit
--terminator
--zsh
--htop
--emacs
+ * git gui
+ * gedit
+ * terminator
+ * zsh
+ * htop
+ * emacs
 
-Run firts install conf, and then gitconf.
+Run first install conf, and then gitconf.
 
-installConf.sh must be run WITH SUDO and your system login name as a parameter.
-gitconf must be run WITHOUT SUDO with two parameters : username email
+`installConf.sh` must be run **WITH SUDO**.
+`gitconf.sh` must be run **WITHOUT SUDO** with two parameters: `github username` and `email`.
 
 Ex: 
-sudo sh installConf.sh psycko
-sh gitconf.sh Psycko psycko@email.com
 
-You must paste the created public key in your distant git server (github, gitorious... ) to finish configuration.
+	$ sudo sh installConf.sh psycko
+	$ sh gitconf.sh Psycko psycko@email.com
 
-With github you can verify the good work of the script by using : 
+You must paste the created public key in your remote git server (github, gitorious...) to finish configuration.
 
-ssh -T git@github.com
+With github you can check the script is working correctly by using:
+
+	$ ssh -T git@github.com
 
