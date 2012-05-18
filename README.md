@@ -1,7 +1,7 @@
 installConf Psycko
 ==================
 
-This conf installs the bash ctafconf (see ctaf42 on (github)[http://github.com/ctaf42]), zsh, git, and some softwares for a new empty system. 
+This conf installs the bash ctafconf (see [ctaf42 on github](http://github.com/ctaf42)), zsh, git, and some softwares for a new empty system. 
 
 Softwares installed:
 
