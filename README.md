@@ -15,7 +15,7 @@ Softwares installed:
 Run first install conf, and then gitconf.
 
 `installConf.sh` must be run **WITH SUDO**.
-`gitconf.sh` must be run **WITHOUT SUDO** with two parameters: username email
+`gitconf.sh` must be run **WITHOUT SUDO** with two parameters: `github username` and `email`.
 
 Ex: 
 
