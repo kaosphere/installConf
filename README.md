@@ -14,10 +14,11 @@ Softwares installed:
 
 Run first install conf, and then gitconf.
 
-`installConf.sh` must be run *WITH SUDO*.
-`gitconf.sh` must be run *WITHOUT SUDO* with two parameters: username email
+`installConf.sh` must be run **WITH SUDO**.
+`gitconf.sh` must be run **WITHOUT SUDO** with two parameters: username email
 
 Ex: 
+
 	$ sudo sh installConf.sh psycko
 	$ sh gitconf.sh Psycko psycko@email.com
 
