@@ -15,4 +15,4 @@ git config --global user.email "$2"
 ssh-keygen -t rsa -C "$2"
 ssh-add ~/.ssh/id_rsa
 
-echo "RSA key created, identity added, no go to github and paste public key here : https://github.com/settings/ssh"
+echo "RSA key created, identity added, now go to github and paste public key here: https://github.com/settings/ssh"
