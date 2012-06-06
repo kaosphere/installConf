@@ -5,6 +5,7 @@ apt-get install -y gedit
 apt-get install -y htop
 apt-get install -y emacs
 apt-get install -y git-core gitk git-gui
+apt-get install -y gawk
 mkdir ~/.config
 cd ~/.config
 git clone git://github.com/ctaf42/ctafconf.git
