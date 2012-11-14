@@ -28,3 +28,5 @@ With github you can check the script is working correctly by using:
 
 	$ ssh -T git@github.com
 
+After that, you can clone your github repositories using their **SSH address** and not their https one.
+

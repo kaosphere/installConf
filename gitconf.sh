@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/zsh
 
 if [ $# -ne 2 ]; then
     echo "enter a user name and an email address as parameters"
@@ -16,4 +16,4 @@ ssh-keygen -t rsa -C "$2"
 ssh-add ~/.ssh/id_rsa
 
 echo "RSA key created, identity added, now go to github and paste public key : https://github.com/settings/ssh"
-
+echo "WARNING : clone repositories with ssh address and NOT https address."
