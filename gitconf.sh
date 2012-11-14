@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/bin/sh
 
 if [ $# -ne 2 ]; then
     echo "enter a user name and an email address as parameters"
